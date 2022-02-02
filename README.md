@@ -1,7 +1,7 @@
 This program sorts the photos based on the time when photo was taken.
 Program execution flow is as follows
  - Double click the PhotoSort.py to run it on local system
- - Select the desired folder containing photos. Please select the folder at root levcel such it is contains no more subfolders, but only photos.
+ - Select the desired folder containing photos. Please select the folder at root level such that it is contains no more subfolders, but only photos.
  - Program will extract 'exif' information from photo contains photo metadata. Date part will be extracted from it.
  - Program will create subfolders in the form of 'YYYY/MMM' under the selected folders
  - Program will create copies of photos by renaming them with the exctrated timecode as follows
